@@ -49,20 +49,20 @@ h4 {
 }
 
 .navbar-brand img {
-    height: 2.5rem;
+    height: 3.5rem;
     padding-left: 2rem
 }
 
 .navbar-nav li {
     padding-left: 3rem;
-    margin-right: 4.5rem;
-    padding-top: 0.8rem;
+    margin-right: 4rem;
     mix-blend-mode: difference;
+    font-weight: 400
 }
 
 .tagline {
     padding-left: 5rem;
-    padding-top: .8rem;
+    padding-top: 1.5rem;
 }
 
 .mountains {
@@ -179,6 +179,12 @@ img:hover {
     padding-top: 200px;
     height: 800px;
 
+}
+
+.design_part_ {
+    height: 800px;
+    background-color: black;
+    color: white;
 }
 
 .design_part {
@@ -321,19 +327,35 @@ img:hover {
     text-align: center
 }
 
-/*---------DESIGN PAGE------------ */
-.bg_design_page {
+/*------------------DESIGN PAGE NAV-- */
+
+
+
+
+
+
+/*------------------DESIGN PAGE NAV-- */
+.design_page_nav {
     background-color: black;
-    color: white;
-    padding-bottom: 80px;
-    padding-top: 120px;
+    padding-bottom: 5rem
+}
+
+.bg_design_page {
+    background-color: white;
+    color: darkslategrey;
+    height: 41rem;
+    padding-top: 6rem;
     display: flex;
     justify-content: space-evenly
 }
 
+.gap {
+    padding-bottom: 60px;
+    padding-top: 20px
+}
 
 .space {
-    padding-left: 20px
+    padding: 3.2rem
 }
 
 .landing_design_page {
@@ -345,18 +367,31 @@ img:hover {
 
 
 
-/*---------TULLY PAGE------------ */
+
+/*--------------------TULLY PAGE*/
 .tully_banner {
     padding-top: 80px;
 
     padding-bottom: 80px
 }
 
-
 .pattern_tully {
     padding-left: 80px;
     padding-bottom: 100px
 }
+
+/*--------------------Swipper*/
+
+
+.swipper-container {
+    height: 600px;
+
+}
+
+.booklet_size {
+    height: 49rem
+}
+
 
 .booklet {
     justify-content: space-between;
@@ -386,6 +421,10 @@ img:hover {
 
 .c {
     padding-left: 10px
+}
+
+.carousel_booklet {
+    height: 100vh
 }
 
 /*---------About PAGE------------ */
