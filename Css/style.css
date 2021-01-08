@@ -1,0 +1,486 @@
+/*  -------------------------------- font  */
+
+body {
+    max-width: 1440px;
+    color: darkslategrey;
+    line-height: 175%;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 1rem
+}
+
+h2 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 2.25rem
+}
+
+h1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 900;
+    font-size: 5.0rem;
+    color: black
+}
+
+h3 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-size: 7.5rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+h4 {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 150%;
+}
+
+
+
+
+
+
+/*--------------------------------GENERAL NAV*/
+.navbar {
+    font-size: 1.5rem;
+
+    mix-blend-mode: difference;
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+    padding-left: 2rem
+}
+
+.navbar-nav li {
+    padding-left: 3rem;
+    margin-right: 4.5rem;
+    padding-top: 0.8rem;
+    mix-blend-mode: difference;
+}
+
+.tagline {
+    padding-left: 5rem;
+    padding-top: .8rem;
+}
+
+.mountains {
+    position: relative;
+    background: url(../mountains2.svg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 100% 0
+    }
+}
+
+.tagline:hover {
+    color: white
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: darkslategrey;
+    padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1DD1A1;
+}
+
+
+
+
+/*---------HOME------------ */
+.pattern_bg {
+
+    padding-top: 130px;
+    height: 700px;
+    background-color: black
+}
+
+
+.b {
+    opacity: 0
+}
+
+.v {
+    opacity: 0.1
+}
+
+.v2 {
+    margin-left: 107px
+}
+
+.v3 {
+    margin-left: 70px
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.lenka_title_design {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.lenka_title_design2 {
+    padding-left: 34px;
+}
+
+/* -----------------------LARGE SCREEN HOME PATTERN */
+
+
+.pattern {
+    padding-left: 80px;
+    padding-top: 20px
+}
+
+.landing_home {
+    font-size: 1.5rem;
+
+    padding-bottom: 30px;
+    background-color: black
+}
+
+.link-space {
+    padding-left: 3rem
+}
+
+.landing_home a:link {
+    color: white
+}
+
+.landing_home:hover {
+    color: white
+}
+
+.landing_home a:visited {
+    color: darkslategrey
+}
+
+.landing_home_space {
+    padding-left: 65rem;
+}
+
+.intro_container {
+
+    padding-top: 200px;
+    height: 800px;
+
+}
+
+.design_part {
+    height: 700px;
+    background-color: black;
+    color: white;
+}
+
+.space {
+    padding-top: 100px
+}
+
+.lines_small {
+    height: 80vh;
+    padding-left: 30rem;
+}
+
+
+
+
+.text {
+    margin-top: -20rem;
+    margin-left: 17rem
+}
+
+.icons {
+    margin-top: -8rem;
+    margin-left: 50rem
+}
+
+.projects {
+    padding-top: 200px;
+    height: 800px;
+}
+
+/* -----------------------------CAROUSEL  */
+
+
+.indicator_filter {
+    filter: invert(62%) sepia(98%) saturate(370%) hue-rotate(110deg) brightness(91%) contrast(90%);
+}
+
+/* -----------------------SMALL SCREEN HOME PATTERN */
+.mobile_home {
+    height: 760px;
+    color: white;
+    background-color: black;
+}
+
+.mobile_pattern {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 30px
+}
+
+.mobile_pattern_top {
+    padding-bottom: 60px;
+    padding-top: 60px
+}
+
+.mobile_title {
+
+    padding-left: 80px
+}
+
+.pattern_bottom {
+    padding-left: 80px;
+    padding-top: 20px
+}
+
+/* ---------------------SMALL SCREEN SHORT INFO */
+.introduction_mobile {
+    padding-top: 30px
+}
+
+/* --------------------SMALL SCREEN  DESIGN  */
+
+.mobile_design {
+    height: 800px;
+    color: white;
+    background-color: black;
+}
+
+.mobile_design_elements {
+    padding-top: 100px
+}
+
+.pen_mobile {
+    padding-top: 200px;
+    padding-left: 120px
+}
+
+/* -----------------------SMALL SCREEN PROJECTS */
+
+.mobile_projects {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+
+/*---------FOOTER------------ */
+.footer_info {
+    padding-bottom: 0.8rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white
+}
+
+.footer a:link {
+    color: white
+}
+
+.footer a:visited {
+    color: #1DD1A1
+}
+
+.footer__ {
+    display: flex;
+    justify-content: space-around
+}
+
+.footer__ {
+    color: darkslategrey;
+    padding-top: 0.8rem;
+}
+
+.footer__ a:visited {
+    color: darkslategrey;
+}
+
+.footer__ a:hover {
+    color: #1DD1A1;
+}
+
+/*--------------------------SMALL SCREEN FOOTER-*/
+
+.mobile_footer {
+    color: white;
+    background-color: black;
+    text-align: center
+}
+
+/*---------DESIGN PAGE------------ */
+.bg_design_page {
+    background-color: black;
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+.space {
+    padding-left: 20px
+}
+
+.landing_design_page {
+    background-color: black;
+    font-size: 21px;
+    padding-top: 80px;
+    padding-bottom: 20px
+}
+
+
+
+/*---------TULLY PAGE------------ */
+.tully_banner {
+    padding-top: 80px;
+
+    padding-bottom: 80px
+}
+
+
+.pattern_tully {
+    padding-left: 80px;
+    padding-bottom: 100px
+}
+
+.booklet {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px
+}
+
+.dividers {
+    padding-top: 50px
+}
+
+.dividers_wave {
+    padding-bottom: 100px
+}
+
+.bag {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 100px
+}
+
+.colour_palette {
+    padding-left: 50px;
+    display: flex;
+    align-content: space-between
+}
+
+.c {
+    padding-left: 10px
+}
+
+/*---------About PAGE------------ */
+.about_page {
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 50px;
+
+}
+
+.photo {
+    margin-top: -100px
+}
+
+.exp {
+    visibility: hidden
+}
+
+.btn {
+    color: #1DD1a1
+}
+
+.about_banner_page {
+    background-color: black;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+
+
+.about_design_page {
+    background-color: black;
+    font-size: 21px;
+
+}
+
+.image_ {
+    position: relative;
+    width: 260px;
+
+
+}
+
+.image__img {
+    display: block;
+    width: 100%
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0)
+}
+
+
+.image__title {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 150%;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25rem
+}
+
+
+/*---------------------------- CAROUSEL BOOKELT*/
+
+.carousel-item {
+
+    height: 100vh;
+}
